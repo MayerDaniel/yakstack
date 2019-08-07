@@ -9,7 +9,7 @@ yakstack only has 4 commands:
 **push \<task\>**:
 pushes a task on to the stack
 
-**peak**:
+**peek**:
 prints your current task
 
 **pop**:
