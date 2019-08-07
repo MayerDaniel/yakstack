@@ -59,7 +59,7 @@ func peek(stack []string) {
 	if len(stack) < 1 {
 		fmt.Printf("You have no tasks!\n")
 	} else {
-		fmt.Printf("Your current task is '%s'\n", stack[0])
+		fmt.Printf("Your current task is '%s'\n", stack[len(stack)-1])
 	}
 }
 
